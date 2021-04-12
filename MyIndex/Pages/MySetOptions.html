@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choosing between a set of options</title>
+  </head>
+  <body>
+    <form>
+      <label for="favoriteColor">What is your favorite color? </label>
+      <select id="favoritecolor" name="favoriteColor">
+        <option value="colorRed">Red</option>
+        <option value="colorBlue">Blue</option>
+        <option value="colorGreen">Green</option>
+        <option value="colorYellow">Yellow</option>
+      </select>
+
+      <br />
+
+      <fieldset>
+        <legend>What is your favorite meal</legend>
+        <input type="radio" name="favoriteMeal" id="breakfast" value="meal1" />
+        <label for="breakfast">breakfast</label>
+        <input type="radio" name="favoriteMeal" id="brunch" value="meal2" />
+        <label for="brunch">brunch </label>
+        <input type="radio" name="favoriteMeal" id="noon" value="meal3" />
+        <label for="noon">noon</label>
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>What is your favorite Dog? all is ok too.</legend>
+        <input type="checkbox" name="favoritedog" id="dog1" value="dog1" />
+        <label for="dog1">dogName 1</label>
+        <input type="checkbox" name="favoritedog" id="dog2" value="dog2" />
+        <label for="dog2">dogName 2</label>
+        <input type="checkbox" name="favoritedog" id="dog3" value="dog3" />
+        <label for="dog3">dogName 3</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
