@@ -1,0 +1,43 @@
+h1 {
+    font-size: 150%;
+    font-weight: normal;
+}
+
+
+/*inheritance - not every attribute can be inherited*/
+
+p {
+    font-size: small;
+    color: green;
+}
+
+footer {
+    color: orange
+}
+
+body footer p {
+    color: orangered;
+}
+
+
+/*Specificity - prioritise between css styles */
+
+footer p {
+    color: orange
+}
+
+body footer p {
+    color: orangered;
+}
+
+.highlight {
+    color: orchid;
+}
+
+footer .highlight {
+    color: rgb(19, 180, 32);
+}
+
+footer .highlight {
+    color: rgb(0, 6, 85);
+}

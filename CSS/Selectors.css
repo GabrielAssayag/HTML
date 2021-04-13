@@ -1,0 +1,30 @@
+h1 {
+    font-size: medium;
+    color: indigo;
+}
+
+p {
+    color: lightcoral;
+}
+
+
+/* Desendant Selectors */
+
+header p {
+    color: lightseagreen;
+}
+
+header p span {
+    color: rgb(252, 36, 36);
+}
+
+
+/* Class Selectors*/
+
+.highlight {
+    background-color: rgb(0, 0, 0);
+}
+
+footer .highlight {
+    background-color: lightgray;
+}
