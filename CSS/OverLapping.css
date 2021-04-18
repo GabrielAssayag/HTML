@@ -37,7 +37,7 @@ header {
 
 .site-nav {
     margin-top: 20px;
-    margin-left: -5px
+    margin-left: -5px;
 }
 
 .site-nav li {
@@ -83,15 +83,34 @@ header {
     box-sizing: border-box;
 }
 
-.side-bar {
-    background-color: #e5e9dc;
-    width: 35%;
-    /*out of max-width: 940px;*/
-    float: left;
-    padding: 20px 40px 20px 40px;
-    /*padding: 20px 40px ;*/
-    box-sizing: border-box;
-    font-size: 85%;
+img {
+    display: block;
+    ;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Banner overlay */
+
+.image-banner {
+    position: relative;
+    /*
+    left: 100px;
+    z-index: 10; */
+}
+
+.banner-disc {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 25px;
+}
+
+.banner-disc:hover {
+    background-color: black;
 }
 
 
@@ -116,4 +135,16 @@ footer {
     padding-bottom: 5px;
     font-size: 85%;
     color: #999;
+}
+
+.side-bar {
+    background-color: #e5e9dc;
+    width: 35%;
+    /*out of max-width: 940px;*/
+    float: left;
+    padding: 20px 40px 20px 40px;
+    /*padding: 20px 40px ;*/
+    box-sizing: border-box;
+    font-size: 85%;
+    left: 100px;
 }
