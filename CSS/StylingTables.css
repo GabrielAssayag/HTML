@@ -1,0 +1,165 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 85%;
+}
+
+.container {
+    background-color: white;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 160%;
+}
+
+header p {
+    margin: 0px;
+}
+
+header {
+    padding-top: 20px;
+    color: #617140;
+}
+
+
+/* Site Navigation */
+
+.site-nav {
+    margin-top: 20px;
+    margin-left: -5px
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #617140;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    color: aqua;
+    background-color: black;
+}
+
+
+/* End Site Navigation */
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+    padding-top: 0px;
+}
+
+.main-area {
+    width: 65%;
+    /*out of max-width: 940px;*/
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+col-item-name {
+    width: 60%;
+}
+
+col-quantity {
+    width: 20%;
+}
+
+col-price {
+    width: 20%;
+}
+
+table th {
+    text-align: left;
+    background-color: #869960;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+table th,
+table td {
+    border: 3px solid #869960;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: #E5e9DC;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3) {
+    text-align: center;
+}
+
+.side-bar {
+    background-color: #e5e9dc;
+    width: 35%;
+    /*out of max-width: 940px;*/
+    float: left;
+    padding: 20px 40px 20px 40px;
+    /*padding: 20px 40px ;*/
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+
+/* ClearFix method*/
+
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group::after {
+    zoom: 1;
+}
+
+
+/*
+.foot {}
+*/
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 85%;
+    color: #999;
+}

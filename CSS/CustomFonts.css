@@ -1,0 +1,36 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'font name';
+    src: url('path') format('woff');
+    src: url('path') format('woff'), url('Path') format('truetype'), url('Path') format('woff'), url('Path') format('svg'), url('Path') format('woff'), url('Path') format('woff'), url('Path') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* additional bold and italic variations */
+
+@font-face {
+    font-family: 'font name2';
+    src: url('path2') format('woff');
+    src: url('path2') format('woff'), url('path2') format('truetype'), url('path2') format('woff'), url('path2') format('svg'), url('path2') format('woff'), url('path2') format('woff'), url('path2') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'font name3';
+    src: url('path3') format('woff');
+    src: url('path3') format('woff'), url('path3') format('truetype'), url('path3') format('woff'), url('path3') format('svg'), url('path3') format('woff'), url('path2') format('woff'), url('path2') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'font name', Arial, Helvetica, sans-serif;
+    font: 15px;
+}
+
+
+/* End custom fonts */
