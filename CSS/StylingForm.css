@@ -1,197 +1,191 @@
 html {
-    background-color: #869960;
+  background-color: #869960;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 85%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 85%;
 }
 
 .container {
-    background-color: white;
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
+  background-color: white;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
 
 header h1 {
-    margin: 0px;
-    font-weight: normal;
-    font-size: 160%;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 160%;
 }
 
 header p {
-    margin: 0px;
+  margin: 0px;
 }
 
 header {
-    padding-top: 20px;
-    color: #617140;
+  padding-top: 20px;
+  color: #617140;
 }
-
 
 /* Site Navigation */
 
 .site-nav {
-    margin-top: 20px;
-    margin-left: -5px
+  margin-top: 20px;
+  margin-left: -5px;
 }
 
 .site-nav li {
-    list-style: none;
-    float: left;
-    margin-right: 5px;
+  list-style: none;
+  float: left;
+  margin-right: 5px;
 }
 
 .site-nav ul {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 5px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5px;
 }
 
 .site-nav a {
-    display: block;
-    text-decoration: none;
-    color: #617140;
-    padding: 10px 20px;
-    border: 3px solid #e5e9dc;
-    border-bottom: none;
+  display: block;
+  text-decoration: none;
+  color: #617140;
+  padding: 10px 20px;
+  border: 3px solid #e5e9dc;
+  border-bottom: none;
 }
 
 .site-nav a:hover {
-    color: aqua;
-    background-color: black;
+  color: #617140;
+  background-color: #e5e9dc;
 }
-
 
 /* End Site Navigation */
 
 .content-area {
-    border-top: 3px solid #e5e9dc;
-    border-bottom: 3px solid #e5e9dc;
-    padding-top: 0px;
+  border-top: 3px solid #e5e9dc;
+  border-bottom: 3px solid #e5e9dc;
+  padding-top: 0px;
 }
 
 .main-area {
-    width: 65%;
-    /*out of max-width: 940px;*/
-    float: left;
-    padding-right: 40px;
-    box-sizing: border-box;
+  width: 65%;
+  /*out of max-width: 940px;*/
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
-
 
 /* Form Styling */
 
 form {
-    background-color: #ececec;
-    padding: 30px 40px;
+  background-color: #ececec;
+  padding: 30px 40px;
 }
 
 .hidden-label {
-    position: absolute;
-    height: 0;
-    width: 0;
-    overflow: hidden;
-    visibility: hidden;
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 input[type="email"],
 input[type="password"],
 select {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    padding: 0 10px;
-    height: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100%;
-    margin-bottom: 15px;
-    border: 1px solid lightgray;
-    outline: none;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  outline: none;
 }
 
 input,
 select {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
 }
 
 select {
-    outline: none;
+  outline: none;
 }
 
 input[type="email"]:focus,
 input[type="password"]:focus {
-    border: 1px solid lightgreen;
-    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .13);
+  border: 1px solid lightgreen;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.13);
 }
 
 input[type="submit"] {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    background-color: #869960;
-    color: #fff;
-    padding: 10px 0px;
-    border: 1px solid #798A56;
-    border-radius: 4px;
-    margin-bottom: 10px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  background-color: #869960;
+  color: #fff;
+  padding: 10px 0px;
+  border: 1px solid #798a56;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    border: 1px solid #535E3B;
-    background-color: #798A56;
+  border: 1px solid #535e3b;
+  background-color: #798a56;
 }
 
 .checkbox-text {
-    font-size: 85%;
-    color: grey;
+  font-size: 85%;
+  color: grey;
 }
-
 
 /* End Form Styling */
 
 .side-bar {
-    background-color: #e5e9dc;
-    width: 35%;
-    /*out of max-width: 940px;*/
-    float: left;
-    padding: 20px 40px 20px 40px;
-    /*padding: 20px 40px ;*/
-    box-sizing: border-box;
-    font-size: 85%;
+  background-color: #e5e9dc;
+  width: 35%;
+  /*out of max-width: 940px;*/
+  float: left;
+  padding: 20px 40px 20px 40px;
+  /*padding: 20px 40px ;*/
+  box-sizing: border-box;
+  font-size: 85%;
 }
-
 
 /* ClearFix method*/
 
 .group::before,
 .group::after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .group::after {
-    clear: both;
+  clear: both;
 }
 
 .group::after {
-    zoom: 1;
+  zoom: 1;
 }
-
 
 /*
 .foot {}
 */
 
 footer {
-    text-align: center;
-    padding-bottom: 5px;
-    font-size: 85%;
-    color: #999;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 85%;
+  color: #999;
 }
