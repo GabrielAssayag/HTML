@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    background-image: url(/Images/DemonSlayer.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 70%;
+}
+
+.item-list {
+    margin-left: 25%;
+    margin-right: 25%;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/Images/Madara.jpg);
+    /*
+    background-position: center center;*/
+    background: #Color url(/images/madara.jpg) center center no-repeat;
+    background background-repeat: no-repeat;
+    background-size: auto;
+}
+
+table {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+table th {
+    background-color: #535353;
+    color: #fff;
+    border-spacing: 23px;
+}
+
+table .col-name {
+    color: violet;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 159, 152);
+    position: static;
+    border-width: 10px;
+    border-color: aqua;
+}
