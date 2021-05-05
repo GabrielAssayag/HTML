@@ -23,10 +23,10 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(/Images/Madara.jpg);
     /*
-    background-position: center center;*/
+    background-position: center center;
     background: #Color url(/images/madara.jpg) center center no-repeat;
     background background-repeat: no-repeat;
-    background-size: auto;
+    background-size: auto;*/
 }
 
 table {
